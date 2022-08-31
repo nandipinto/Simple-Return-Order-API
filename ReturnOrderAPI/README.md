@@ -11,6 +11,8 @@ A Simple API to manage return orders.
   - The following DB tables should be created automatically: `ORDERS, RETURN_ORDERS, RETURN_ORDER_ITEMS, RETURN_ORDER_TOKENS` respectively. The `ORDERS` table should already been populated with data from the CSV file.
   
 ## Testing the API
+You can use Postman or other similar tools to test the API.
+
 ### 1. Pending Return Order API (Request for Token)
 This API is for requesting token to be used for returning orders. To allow the application to generate a token, the request should include `orderId` and `email` that already populated in the `ORDERS` table, otherwise no token will be generated.
 
