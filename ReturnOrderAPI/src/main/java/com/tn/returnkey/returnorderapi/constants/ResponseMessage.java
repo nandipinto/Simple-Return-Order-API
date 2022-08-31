@@ -1,0 +1,14 @@
+package com.tn.returnkey.returnorderapi.constants;
+
+public enum ResponseMessage {
+
+    BAD_REQUEST,
+    INVALID_REQUEST_TOKEN,
+    INTERNAL_SYSTEM_ERROR,
+    INVALID_PARAMETER_VALUE,
+    NO_MATCHING_ORDER_ITEMS_FOUND,
+    NO_MATCHING_RECORD_FOUND,
+    REQUEST_AWAITING_APPROVAL,
+    REQUEST_COMPLETED;
+
+}
